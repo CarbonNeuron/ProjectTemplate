@@ -12,6 +12,7 @@ namespace ProjectTemplate
             logger.Info("A simple Project Template for my projects.");
             logger.Info($"Global value : {Settings.Name}");
             logger.Info($"Persistant value : {Settings.PSettings.PValue}");
+            Console.ReadLine(); //Keeps program from exiting. 
         }
     }
 }
